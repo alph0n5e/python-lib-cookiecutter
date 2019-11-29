@@ -1,3 +1,10 @@
 {
-
+  "project_name": "Python Lib",
+  "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "package_name": "{{ cookiecutter.repo_name.lower().replace('-', '_') }}",
+  "project_short_description": "-- TODO: Edit short description --",
+  "author": "Antoine Robert",
+  "author_email": "antoine.al.robert@gmail.com",
+  "version": "0.1.0.dev0",
+  "generate_command_line_interface": "y"
 }
